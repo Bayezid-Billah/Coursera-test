@@ -12,6 +12,34 @@
     font-size: 36px;
     text-align: middle;
     }
+    .highlight{
+        background-color: yellow;
+    }
+    p.highlight{
+        background-color: green;
+        font-style: italic;
+    }
+    .highlight.mainpoint {
+        color: white;
+        background-color:black;
+    }
+    .highlight.mainpoint.italic{
+        color:royalblue;
+        background-color:salmon;
+        font-style: italic;
+    }
+    p.highlight2{
+        font-style:italic;
+    }
+    section>p{
+        color:black;
+        font-style: italic;
+    }
+    section ul{
+        font-size:30px;
+        color:saddlebrown;
+        text-align:center;
+    }
 </style>
 </head>
 <body>
@@ -29,5 +57,18 @@
     </p>
 
     <section><p>we are learning a lot of things but we are not doing that good i think, at least not me for sure</p></section>
+    <h1 class = "highlight"> Just your average second header . </h1>
+    <p class = "highlight">Highlighting text is easy, but to get a paragraph with  no highlighting instead is hard.</p>
+    <p class = "mainpoint highlight">But wer can always try to learn how to do styling new things anyway</p>
+    <div class = "mainpoint highlight italic"> This is the combination of it all</div>
+    <section>
+    <p class = highlight2>And we can always do some more </p>
+    <div>And still its not enough.</div>
+    <ul>learn new things</ul>
+    <ul>and keep on learning</ul>
+    <ul>but still no money earning</ul>
+    <ul>am i even getting anything back for trying</ul>
+    </section>
+    <p class = highlight3>and learn new styles</p>
 </body>
 </html>
