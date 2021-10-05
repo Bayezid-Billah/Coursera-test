@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Pseudo Class selectors</title>
+        <style>
+        header li{
+            list-style: none;
+        }
+        a:link, a:visited{
+            text-decoration: none;
+            background-color: green;
+            border: 1 px solid blue;
+            color: black;
+            display: block;
+            width:200px;
+            text-align: center;
+            margin-bottom: 1px;
+        }
+        a:hover,a:active{
+            background-color: red;
+            color:purple;
+        }
+        header li:nth-child(2){
+            font-size: 24px;
+        }
+        section div:nth-child(odd){
+            background-color:gray;
+        }
+        section div:nth-child(4):hover{
+            background-color:greenyellow;
+            cursor: pointer;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Pseudo class</h1>
+        <header>
+            <ul>
+                <li><a href="https://bayezid-billah.github.io/Coursera-test/"
+                target="_blank">One Page</a></li>
+                <li><a href="https://bayezid-billah.github.io/Coursera-test/site/csstry"
+                    target = "_blank">Another Page</a></li>
+                    <li><a href="https://bayezid-billah.github.io/Coursera-test/site/anatomy_of_an_html_tag.html"
+                    target="_blank">The third page</a>    
+                    </a></li>
+                    <li><a href="https://bayezid-billah.github.io/Coursera-test/site/creating-links.html"
+                    target = "_blank">and the last page</a></li>
+            </ul>
+
+        </header>
+        <section>
+            <div>Div1</div>
+            <div>Div2</div>
+            <div>Div3</div>
+            <div>Div4</div>
+            <div>Div5</div>
+            <div>Div6</div>
+            <div>Div7</div>
+            <div>Div8</div>
+            <div>Div9</div>
+            <div>Div10</div>
+        </section>
+    </body>
+</html>

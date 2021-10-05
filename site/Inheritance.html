@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Inheritance in CSS</title>
+        <style>
+            body{
+                color:red;
+                text-align:center;
+                font-family:helvetica;
+            }
+            p{
+                color:blue;
+            }
+            header.navigation p {
+                color: violet;
+            }
+            p.opera{
+                color:orange;
+            }
+            p.vega{
+                color: black !important;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            An example of Cascade of CSS
+        </h1>
+        <h2>Subheading 1</h2>
+        <p>Inheritence in html allows us to write more global styles on parent elements and then "fine-tune"
+            the styles for some of the child elements as needed. Such approach makes writing css very
+            efficient
+        </p>
+        <h2>Subheading 2 </h2>
+        <p>But if I want to keep learning new things, the process is really painful and boring
+            but the fact that I can earn money learning this is actually a good motivation.
+        </p>
+    </body>
+    <body>
+        <header class="navigation">
+            <p class="opera">And now I am writing a 3rd passage to make sure that 
+                I completly understand how this works. So the 3rd paragraph 
+                will be the final one I hope.
+            </p>
+        </header>
+    </body>
+
+    <body>
+        <header class="navigation">
+            <p class="vega">And now I am writing a 4rd passage to make sure that 
+                I completly understand how this works. So the 3rd paragraph 
+                will be the final one I hope.
+            </p>
+        </header>
+    </body>
+</html>
